@@ -30,7 +30,7 @@ ipak(packages)
 # Simple example using a sentence. Note use of function 
 # convertToBinaryResponse() to convert a vector of
 # continuous sentiment scores into a factor object.
-sentiment <- analyzeSentiment("My visit to Starbucks today was really lousy.")
+sentiment <- analyzeSentiment("My visit to Starbucks today was lousy.")
 convertToBinaryResponse(sentiment)$SentimentQDAP
 
 ```
